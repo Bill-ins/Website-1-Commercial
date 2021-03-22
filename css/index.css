@@ -1,0 +1,321 @@
+body {
+    font-family: 'Abel', sans-serif;
+}
+
+/* Applying Clearfix */
+.clearFix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* Centering Elements */
+.masterCenter {
+    width: 960px;
+    margin: 0px auto;
+}
+
+/* Website Header Starts Here */
+/* Top Logo */
+.logoTop {
+    background-color: #3a3a3a;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.logoTop h1 {
+    color: #6cce3d;
+    margin: 0px 0px;
+    font-size: 70px;
+    text-align: center;
+}
+
+.logoTop p {
+    text-align: center;
+    color: #489a45;
+    margin: 0px 0px;
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    top: -15px;
+}
+
+/* Navigation */
+.navigation {
+    margin-top: 50px;
+    background-color: #6cce3d;
+    border-radius: 10px;
+}
+
+.navigation ul {
+    padding-left: 30px;
+}
+
+.navigation ul li {
+    list-style-type: none;
+    float: left;
+    margin-right: 55px;
+    padding: 13px 10px;
+}
+
+.navigation ul .home {
+    background-color: #489a45;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    font-size: 23px;
+    color: white;
+}
+/* Website Header Ends Here */
+
+
+/* Picture Banner */
+.imgBanner {
+    margin-top: 50px;
+}
+
+/* Website Body Starts Here */
+
+/* Left Box Starts Here */
+.left {
+    width: 340px;
+    float: left;
+}
+
+/* Box 1 */
+.left .box1 h3 {
+    color: #6cce3d;
+    font-size: 30px;
+    margin-bottom: 25px;
+    margin-top: 50px;
+}
+
+.left .box1 p {
+    padding-left: 25px;
+    text-align: left;
+    font-size: 15px;
+    word-spacing: 2px;
+}
+
+/* Box 2 */
+.left .box2 h3 {
+    color: #6cce3d;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.left .box2 ul {
+    list-style-type: none;
+    padding: 0px;
+    margin-top: 10px;
+}
+
+.left .box2 ul li {
+    color: grey;
+    margin-bottom: 18px;
+    font-size: 15px;
+}
+
+/* Box 3 */
+.left .box3 h3 {
+    color: #6cce3d;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.left .box3 ul {
+    list-style-type: none;
+    padding: 0px;
+    margin-top: 10px
+}
+
+.left .box3 ul li {
+    color: grey;
+    margin-bottom: 18px;
+    font-size: 15px;
+}
+
+/* Box 4 */
+.left .box4 h3 {
+    color: #6cce3d;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.left .box4 ul {
+    list-style-type: none;
+    padding: 0px;
+    margin-top: 10px
+}
+
+.left .box4 ul li {
+    color: grey;
+    margin-bottom: 18px;
+    font-size: 15px;
+}
+/* Left Box Ends Here */
+
+/* Right Box Starts Here */
+.right {
+    width: 570px;
+    float: right;
+}
+
+/* Box 1 */
+.right .box1 h2 {
+    color: #6cce3d;
+    font-size: 45px;
+    margin-bottom: 0px;
+}
+
+.right .box1 .postedBy {
+    margin: 5px 0px 30px 0px;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.right .box1 .dot {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-style: normal;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.right .box1 .paragraph {
+    font-size: 15px;
+    text-align: justify;
+}
+
+.right .box1 .light {
+    color: grey;
+}
+
+.right .box1 .dark {
+    color: black;
+}
+
+.right .box1 .bold {
+    font-weight: bold;
+}
+
+.right .box1 hr {
+    margin-top: 50px;
+}
+
+/* Box 2 */
+.right .box2 h2 {
+    color: #6cce3d;
+    font-size: 45px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.right .box2 .postedBy {
+    margin: 0px;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.right .box2 .dot {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-style: normal;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.right .box2 .paragraph {
+    font-size: 15px;
+    text-align: justify;
+}
+
+.right .box2 .light {
+    color: grey;
+}
+
+.right .box2 .dark {
+    color: black;
+}
+
+.right .box2 .bold {
+    font-weight: bold;
+}
+
+.right .box2 hr {
+    margin-top: 50px;
+}
+
+/* Box 3 */
+.right .box3 h2 {
+    color: #6cce3d;
+    font-size: 45px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.right .box3 .postedBy {
+    margin: 0px;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.right .box3 .dot {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-style: normal;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.right .box3 .paragraph {
+    font-size: 15px;
+    text-align: justify;
+}
+
+.right .box3 .light {
+    color: grey;
+}
+
+.right .box3 .dark {
+    color: black;
+}
+
+.right .box3 .bold {
+    font-weight: bold;
+}
+
+.right .box3 hr {
+    margin-top: 50px;
+}
+
+/* Right Box Ends Here */
+
+/* Website Body Ends Here */
+
+
+/* Footer Starts Here */
+.footer {
+    clear: both;
+    height: 100px;
+    background-color: #3a3a3a;
+    margin-top: 70px;
+    overflow: auto;
+}
+
+.footer p {
+    margin-top: 15px;
+    font-size: 14px;
+    text-align: center;
+    color: lightgrey;
+}
+
+.footer p .green {
+    color: rgb(6, 175, 29);
+    text-decoration: underline;
+}
